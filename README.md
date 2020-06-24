@@ -5,12 +5,14 @@
 Using the [PokéApi](https://pokeapi.co/), create a Pokédex where users can not
 only browse a list of Pokémon characters, but also search for their favorites!
 
-Starter code is provided for you, which includes some HTML and CSS. The styling
-is provided by [React Bootstrap](https://react-bootstrap.github.io/getting-started/introduction),
-which is already linked. When you finish the base requirements, look
-into Bootstrap for the bonuses!
 
-![Pokédex](img/screenshot2.png)
+### Pokedex Page
+
+![Pokédex](https://i.imgur.com/fbSDdrf.png)
+
+### My Team Page
+
+![](https://i.imgur.com/lZtCNzG.png)
 
 ## Prerequisites
 
@@ -22,28 +24,16 @@ into Bootstrap for the bonuses!
 1. Fork and clone this repository.
 2. Change into the new directory.
 3. Fulfill the listed requirements.
-4. Submit your solution with a pull request on this repository.
 
 Please turn in your submission by the deadline on your cohort calendar.
 
 ## Requirements
 
-1. When the page loads, make a
-   request to the PokéApi and list all Pokémon in the browser. Each character
-   should appear in `section#results` element.
-2. Add an input field/search bar with a submit button called "Search". When the
-   user enters the name of the Pokémon and clicks submit, a request is made to
-   the PokéApi and the approprate Pokémon's name should appear in the
-   `section#results` element. The new results should clear out any existing
-   results before displaying the new results.
-3. Add a dropdown that includes the following options: Name, Move, Ability, and
-   Location.
-4. Focus the search based on the option the user selects for the dropdown menu.
-   When the Search button is clicked, make a request to the PokéApi to search
-   the Pokémon property that matches the selected option for what is in the
-   input field.
-5. If the input does match any data from the PokéApi, create an alert that says
-   "No matches! Try something else!"
+1. When the page loads, make a request to the PokéApi and list the names of all the Pokémon in the AllPokeMon Component and the details of the first Pokemon in SinglePokemon Component. 
+2. When the user clicks a pokemon the SinglePokemon info will update to show the info for that Pokemon
+3. The individual Pokemon will include an `Add To Team` link which will add that Pokemon to the users team
+4. The Navigation will include a link to `Pokedex` and `My Team`.  If the user clicks on `Pokedex` then the page will display all the Pokemon.  If the user clicks `My Team` then the `MyTeam Comonent` will display all the Pokemon in that users. 
+5. When on the `My Team` page the user will be able to remove the Pokemon from their team. 
 
 ## Bonus
 
@@ -51,8 +41,7 @@ Please turn in your submission by the deadline on your cohort calendar.
   pokemon search results
 - Make your Pokédex responsive using the
   [Bootstrap grid](https://react-bootstrap.netlify.com/layout/grid/#grid)!
-- For the "Name" and "Catch 'Em All" searches, show the image of the pokemon in
-  the results.
+
 
 ## [License](LICENSE)
 
