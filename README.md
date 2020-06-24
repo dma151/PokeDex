@@ -42,7 +42,7 @@ Here is a [working version](https://5ef36174bbe62a024793fe3e--wonderful-kalam-c9
 
 Once you take a look at the Pokemon API you will find that it provides a url endpoint that returns all Pokemon but only a limited set of info, such as their name: `https://pokeapi.co/api/v2/pokemon`
 
-![pokemon](https://pokeapi.co/api/v2/pokemon)
+![pokemon](https://i.imgur.com/gKDrV1d.png)
 
 ## Bonus
 
