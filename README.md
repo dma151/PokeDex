@@ -44,6 +44,10 @@ Once you take a look at the Pokemon API you will find that it provides a url end
 
 ![pokemon](https://i.imgur.com/gKDrV1d.png)
 
+And to retrieve a single Pokemon: `https://pokeapi.co/api/v2/pokemon/1/`
+
+![pokemon](https://i.imgur.com/CD8Ga2M.png)
+
 ## Bonus
 
 - Use [React Bootstrap](https://react-bootstrap.github.io/getting-started/introduction) to style your form input and
