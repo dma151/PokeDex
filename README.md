@@ -38,6 +38,12 @@ Here is a [working version](https://5ef36174bbe62a024793fe3e--wonderful-kalam-c9
 4. The Navigation will include a link to `Pokedex` and `My Team`.  If the user clicks on `Pokedex` then the page will display all the Pokemon.  If the user clicks `My Team` then the `MyTeam Comonent` will display all the Pokemon in that users. 
 5. When on the `My Team` page the user will be able to remove the Pokemon from their team. 
 
+## Pokemon Url
+
+Once you take a look at the Pokemon API you will find that it provides a url endpoint that returns all Pokemon but only a limited set of info, such as their name: `https://pokeapi.co/api/v2/pokemon`
+
+![pokemon](https://pokeapi.co/api/v2/pokemon)
+
 ## Bonus
 
 - Use [React Bootstrap](https://react-bootstrap.github.io/getting-started/introduction) to style your form input and
