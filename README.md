@@ -27,8 +27,6 @@ Here is a [working version](https://5ef36174bbe62a024793fe3e--wonderful-kalam-c9
 2. Change into the new directory.
 3. Fulfill the listed requirements.
 
-Please turn in your submission by the deadline on your cohort calendar.
-
 ## Requirements
 
 1. When the page loads, make a request to the PokéApi and list the names of all the Pokémon in the AllPokeMon Component and the details of the first Pokemon in SinglePokemon Component. 
