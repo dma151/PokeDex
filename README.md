@@ -7,9 +7,6 @@ only browse a list of Pokémon characters, but also search for their favorites!
 
 Make sure to review the [PokeApi Docs](https://pokeapi.co/docs/v2) so that you understand how to work with the API. 
 
-Here is a [working version](https://5ef36174bbe62a024793fe3e--wonderful-kalam-c942de.netlify.app/) of the app.
-
-
 ### Pokedex Page
 
 ![Pokédex](https://i.imgur.com/fbSDdrf.png)
