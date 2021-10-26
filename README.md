@@ -2,8 +2,6 @@
 
 # Pokedex Lab
 
-1. Fork/Clone this repo
-
 Using the [PokéApi](https://pokeapi.co/), create a Pokédex where users can not
 only browse a list of Pokémon characters, but also search for their favorites!
 
