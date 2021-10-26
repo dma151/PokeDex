@@ -3,7 +3,6 @@
 # Pokedex Lab
 
 1. Fork/Clone this repo
-2. When completed submit your aassignment [here](https://docs.google.com/forms/u/3/d/e/1FAIpQLSezWVG8OLr6ZxmRNOwZ6xsoYO5lu_7L1LTWA3X6iclG4iG_Hw/viewform?usp=send_form). 
 
 Using the [PokéApi](https://pokeapi.co/), create a Pokédex where users can not
 only browse a list of Pokémon characters, but also search for their favorites!
