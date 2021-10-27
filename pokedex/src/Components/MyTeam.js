@@ -10,9 +10,10 @@ const MyTeam = (props) => {
         <div className='pokedex'>
             <div className='pokeList' />
             <div className="circle" />
+            <div className="sidebar" />
             <div className='team'>
                 <ul>
-                    {props.myTeam.length && props.myTeam.map((data) => {
+                    {props.myTeam && props.myTeam.map((data) => {
                         return(
                             <li key={data.id} className='chosenTeam'>
                                 <img src={data.sprites.front_default} alt={data.forms[0].name} />
