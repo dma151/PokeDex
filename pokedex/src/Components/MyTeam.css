@@ -1,0 +1,53 @@
+.pokedex {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+    overflow: hidden;
+    border-bottom: 3px solid black;
+    border-left: 1px solid black;
+    height: 513px;
+}
+.pokeList {
+    grid-column: 1/9;
+    grid-row: 1/2;
+    background-color: rgb(202, 43, 43);
+    border-right: 10px solid black;
+}
+.circle {
+    position: relative;
+    grid-column: 8/ span 2;
+    grid-row: 1/2;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border: 20px solid black;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 auto;
+    bottom: -400px;
+}
+.sidebar {
+    grid-column: 9/13;
+    grid-row: 1/2;
+    border-left: 10px solid black;
+    border-right: 1px solid black;
+}
+
+.team {
+    grid-column: 1/13;
+    grid-row: 1/2
+}
+.team ul {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+.chosenTeam {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px;
+}
